@@ -1,0 +1,199 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{86, 97}, {273, 64}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "88E254B4-BCE7-4A20-92A4-2D54E5A08C44",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Input 1 or 'large' for a large pizza",
+          "name" : "large_pizza_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{86, 179}, {273, 64}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "88E254B4-BCE7-4A20-92A4-2D54E5A08C44",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Input 2 or 'extra' for an extra large pizza",
+          "font_size" : 18,
+          "name" : "extra_large_pizza_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{86, 259.5}, {273, 64}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "88E254B4-BCE7-4A20-92A4-2D54E5A08C44",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Input the number of toppings              (1 to 4)",
+          "font_size" : 18,
+          "name" : "toppings_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{425, 155}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "-----",
+          "font_name" : "<System>",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "16C9F75D-3BF5-487C-ABA9-028C7708A8F8",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "name" : "input_size_textfield",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{425, 239.5}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "0",
+          "font_name" : "<System>",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "16C9F75D-3BF5-487C-ABA9-028C7708A8F8",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "name" : "input_toppings_textfield"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{699, 179}, {244, 64}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "12F4AD32-90E6-45CE-86B0-DEDCA35B30A9",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "error_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{452, 368}, {153, 62}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Calculate!",
+          "uuid" : "F5A0348A-84E5-45E5-8AC3-B298C773358E",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{86, 481}, {273, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "D36439AF-A2DE-4E8C-9774-6F12325A898E",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Subtotal:",
+          "name" : "subtotal_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{86, 541}, {273, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "D36439AF-A2DE-4E8C-9774-6F12325A898E",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "HST:",
+          "font_size" : 18,
+          "name" : "hst_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{86, 595}, {273, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "D36439AF-A2DE-4E8C-9774-6F12325A898E",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Total",
+          "font_size" : 18,
+          "name" : "total_label"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]

@@ -1,0 +1,55 @@
+
+//Created by: Matthew Lourenco
+//Created on: 11 Oct, 2016
+//this program calculates the cost of a pizza based on size and number of toppings
+
+let HST: Double = 0.13
+
+//Input
+let size = 1
+let toppings: Int = 4
+
+var subtotal: Double = 0
+var subHST: Double = 0
+var total: Double = 0
+
+//Process
+if String(size) == "large" || Int(size) == 1 || String(size) == "Large" {
+    var pizza: Double = 6
+    if toppings == 1 || toppings == 2 || toppings == 3 || toppings == 4 {
+        subtotal = pizza + 1 + ( Double(toppings) - 1 ) * 0.75
+        subHST = subtotal * 0.13
+        total = subtotal + subHST
+    }
+    else {
+        print("Invalid number of toppings. Please enter 1, 2, 3, or 4")
+    }
+} else if String(size) == "extra" || Int(size) == 2 || String(size) == "Extra" {
+    var pizza: Double = 10
+    if toppings == 1 || toppings == 2 || toppings == 3 || toppings == 4 {
+        subtotal = pizza + 1 + ( Double(toppings) - 1 ) * 0.75
+        subHST = subtotal * 0.13
+        total = subtotal + subHST
+    }
+    else {
+        print("Invalid number of toppings. Please enter 1, 2, 3, or 4")
+    }
+} else {
+    print("Invalid pizza size. Please enter Large, Extra, 1 or 2")
+}
+subtotal = subtotal * 100
+subtotal.round()
+subtotal = subtotal/100
+subHST = subHST * 100
+subHST.round()
+subHST = subHST/100
+total = total * 100
+total.round()
+total = total/100
+
+//Output
+print(String(size))
+print(String(toppings))
+print("Subtotal: $" , subtotal)
+print("HST: $" , subHST)
+print("Total: $" , total)
